@@ -2,17 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #1f2937;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between; 
     align-items: center; 
-    width: 80%;
+    width: 100%;
+    background-color: #1f2937;
     margin: auto; 
-    margin-bottom: 100px;
-    padding: 40px;
+    padding:  30px 80px;
+    padding-bottom: 100px;
 }
 
 .navbar h2 {
@@ -40,12 +40,11 @@
 
 .hero {
     display: flex;
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    height: 400px;
-    padding: 40px;
-    
+    padding: 30px 80px;
+    background-color: #1f2937;
 }
 
 .hero_content{
@@ -54,14 +53,14 @@
 }
 
 .hero_content h1 {
-    font-size: 48px; 
+    font-size: 81px; 
     font-weight: bolder;
     color: #f9faf8;
    
 }
 
 .hero_content p {
-    font-size: 18px; 
+    font-size: 23px; 
     color: #e5e7eb;
     margin-bottom: 25px;
     margin-top: 25px;
@@ -80,11 +79,62 @@
 }
 /* Stylizacja sekcji z obrazem */
 .hero_image {
-    width: 80%; 
-    padding-bottom: 70px; 
+    width: 100%; 
+   
 }
 
 .hero_image img {
     width: 100%; 
     height: auto;
 }
+
+
+.random {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 100px; /* Zwiększa odstęp na górze i na dole sekcji */
+    background-color: white;
+    text-align: center; /* Wycentrowanie tekstu nagłówka */
+  }
+  
+  .random h2 {
+    margin-bottom: 20px; /* Dodaje odstęp pod nagłówkiem */
+    color: #333; /* Ciemniejszy kolor dla nagłówka */
+    font-size: 24px; /* Wielkość czcionki dla nagłówka */
+    background-color: white !important;
+  }
+  
+  .flex_container_random {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Pozwala zawijanie elementów jeśli nie mieszczą się */
+  }
+  
+  .random_square {
+    display: flex;
+    justify-content: center; /* Centrowanie poziome */
+    align-items: center;
+    flex-direction: column;
+    width: 22%; /* Ustala szerokość każdego kwadratu na 22% */
+    margin: 10px; /* Ustala margines wokół kwadratów */
+    padding: 20px; /* Ustala wewnętrzny odstęp dla kwadratów *
+    border-radius: 8px; /* Lekkie zaokrąglenie rogów */
+    background-color: #fff; /* Biały kolor tła dla kwadratów */
+    
+  }
+  
+  .random_photo {
+   
+    width: 150px; /* Ustala szerokość zdjęcia na całą dostępną szerokość kontenera */
+    height: 150px; /* Ustala wysokość zdjęcia */
+    background-color: #f3f4f6; /* Jasny kolor tła dla miejsca na zdjęcie */
+    border-radius: 30px; /* Zaokrąglenie rogów dla miejsca na zdjęcie */
+    margin-bottom: 15px; /* Odstęp pomiędzy zdjęciem a tekstem */
+    text-align: center;
+    border: 6px solid blue;
+  }
+  
+  .random_square p {
+    color: #333; /* Ciemniejszy kolor tekstu */
+    font-size: 14px; /* Mniejsza wielkość czcionki dla tekstu */
+  }

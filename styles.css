@@ -186,3 +186,12 @@
     font-size: medium;
     border: 2px solid white; 
   }
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    width: 100%;
+    padding: 50px 120px;
+    color: white;
+}

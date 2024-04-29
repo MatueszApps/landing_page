@@ -86,6 +86,7 @@
 .hero_image img {
     width: 100%; 
     height: auto;
+    padding: 20px;
 }
 
 
@@ -107,6 +108,8 @@
   .flex_container_random {
     display: flex;
     justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
     flex-wrap: wrap; /* Pozwala zawijanie elementów jeśli nie mieszczą się */
   }
   
@@ -125,8 +128,8 @@
   
   .random_photo {
    
-    width: 150px; /* Ustala szerokość zdjęcia na całą dostępną szerokość kontenera */
-    height: 150px; /* Ustala wysokość zdjęcia */
+    width: 250px; /* Ustala szerokość zdjęcia na całą dostępną szerokość kontenera */
+    height: 250px; /* Ustala wysokość zdjęcia */
     background-color: #f3f4f6; /* Jasny kolor tła dla miejsca na zdjęcie */
     border-radius: 30px; /* Zaokrąglenie rogów dla miejsca na zdjęcie */
     margin-bottom: 15px; /* Odstęp pomiędzy zdjęciem a tekstem */
@@ -137,4 +140,19 @@
   .random_square p {
     color: #333; /* Ciemniejszy kolor tekstu */
     font-size: 14px; /* Mniejsza wielkość czcionki dla tekstu */
+  }
+
+  .quote{
+    display: flex;
+    background-color: #e5e7eb;
+    width: 100%;
+    padding: 90px 240px;
+    justify-content: center;
+  }
+
+  blockquote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 300;
   }

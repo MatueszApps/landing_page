@@ -156,3 +156,33 @@
     color: #1f2937;
     font-weight: 300;
   }
+
+  .call{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: auto;
+  }
+
+  .call_to_action{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    color: white;
+    width: 50%;
+    padding: 40px 100px;
+    margin: 70px auto;
+    border-radius: 15px;
+  }
+
+  .second_button{
+    background-color: #3882f6; 
+    color: white; 
+    border-radius: 10px; 
+    padding-left: 15px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: medium;
+    border: 2px solid white; 
+  }
